@@ -3,7 +3,7 @@
 ## Thermal Boundary Layers and the oceanic lithosphere
 
 * **This practical is not assessed !!!** 
-* **We'll be working through this togther**
+* **We'll be working through this together**
 * **Please feel free to self organise into small groups**
 
 ### **🌍**  **Key Background Concept**s
@@ -12,23 +12,22 @@ In the lecture we explored some major insights from the **plate tectonics revolu
 
 - The **oceanic lithosphere** represents the **cooling thermal boundary layer** of a convecting mantle system.
 - **Mid-ocean ridges** are *passive* features
-- **Mantle upwelling** occurs at a temperature representing some _average upper mantle_ value ($T_a$)
-- This material **moves award**, **cools conductively**, and its thermal evolution can be captured by simple mathematical models, 
-- These mathematical models involve partial differential equations (PDEs). Sometimes these can be solved with pen-and-paper (analysis, or analytic solution); or we can use numerical methods (i.e. computers) to arrive at solutions. 
+- Mantle rock upwells,  moves away from the ridge in a rigid manner, and its thermal evolution can be captured by the physics of conductive heat transfer. 
+- The evolution of the temperature field can be described by a partial differential equation (PDE). Sometimes these can be solved with pen-and-paper (analysis, or analytic solution); or we can use numerical methods (i.e. computers) to arrive at solutions. 
 
 ##  What are we aiming to do here?
 
-We're going to use a web-based tool called **VisualPDE** to solve the diffusion advection-diffusion equation (also called convection-diffusion), and apply this to the cooling of a thermal boundary layer. 
+We're going to use a web-based tool called **VisualPDE** to solve the advection-diffusion equation (also called convection-diffusion), and apply this to the cooling of a thermal boundary layer. 
 
 In this case we will be exploring a solution in 2D. 
 
 To refresh your memory from the lecture, here is a diagram of the model setup. Note that **VisualPDE** refers to the vertical dimension as $y$ (not $z$)
 
-W![Halfspace Cooling Model Setup](./halfspace-model.png)
+![Halfspace Cooling Model Setup](./halfspace-model.png)
 
 **Figure**: Model setup for halfspace cooling. This shows the lithosphere cooling as it moves away from the ridge at \( x = 0 \), with surface velocity \( v \), surface temperature \( $T = T_0$ \) and basal temperature \( $T = T_a$). The velocity field is horizontal and uniform, representing idealised rigid plate motion. The curved isotherms reflect conductive cooling into the lithosphere over time. 
 
-The dashed square box in the above figure represents (schematically) the domain we'll be workign with.  Using **VisualPDE**  we'll need to figure out how to set **boundary conditions** & **initial conditions**, and set the velocity field $v$.
+The dashed square box in the above figure represents (schematically) the domain we'll be working with.  Using **VisualPDE**  we'll need to figure out how to set **boundary conditions** & **initial conditions**, and set the velocity field $v$.
 
 ## Step 1: 🌐 Access VisualPDE
 
@@ -48,7 +47,7 @@ Once you access the simulator, **try clicking anywhere** on your screen...
 
 What happened?
 
-* You're creating a pertubation (a localised source) of a quantity called $u$
+* You're creating a perturbation (a localised source) of a quantity called $u$
 
  **try clicking and holding anywhere** on your screen..
 
@@ -134,7 +133,7 @@ So, in our case:
 
 **In VisualPDE:**
 
-➡️ click on the $f(x)$ button, then ➡️ `Initial conditons` 
+➡️ click on the $f(x)$ button, then ➡️ `Initial conditions` 
 
 * set $u = 1$, easy! 
 
@@ -144,9 +143,9 @@ When solving partial differential equations like the advection-diffusion equatio
 
 **In VisualPDE:**
 
-➡️ click on the $f(x)$ button, then ➡️ `Boundary Conditons` ➡️ `Mixed Boundary Conditions`,
+➡️ click on the $f(x)$ button, then ➡️ `Boundary Conditions` ➡️ `Mixed Boundary Conditions`,
 
-This lets you choose custom boundary conditons for each of the 4 boundaries
+This lets you choose custom boundary conditions for each of the 4 boundaries
 
 - A **Dirichlet** boundary is where we fix the value of our variable (here $u$, being temperature), so it always has this value. Choose  ➡️ `Dirichlet`, and set the **value of** $u$ for
   - the **top** (cool surface, $u$ = 0)
@@ -193,13 +192,13 @@ $$
 
 So the **contour depth** at any horizontal distance $x$ should scale like:
 $$
-\delta(x) \propto \sqrt{D / V}
+\delta(x) \propto \sqrt{\frac{D}{V}}
 $$
 
 
 * Visually, make a note of the depth of a particular isotherm as indicated by the contour lines you sent up. 
 
-* What happens if you multiply $V$ and $D$ by the same ammount?
+* What happens if you multiply $V$ and $D$ by the same amount?
 
 * What happens if you increase $D$ (leaving V fixed) by increments of $\times$2?  What might be happening here? Think about what the physics is trying to do, in relation to the boundary condition you set. 
 
