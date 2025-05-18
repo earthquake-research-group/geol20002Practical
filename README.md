@@ -24,7 +24,7 @@ In this case we will be exploring a solution in 2D.
 
 To refresh your memory from the lecture, here is a diagram of the model setup. Note that **VisualPDE** refers to the vertical dimension as $y$ (not $z$)
 
-W![Halfspace Cooling Model Setup](./halfspace-model-space2.png)
+W![Halfspace Cooling Model Setup](./halfspace-model.png)
 
 **Figure**: Model setup for halfspace cooling. This shows the lithosphere cooling as it moves away from the ridge at \( x = 0 \), with surface velocity \( v \), surface temperature \( $T = T_0$ \) and basal temperature \( $T = T_a$). The velocity field is horizontal and uniform, representing idealised rigid plate motion. The curved isotherms reflect conductive cooling into the lithosphere over time. 
 
