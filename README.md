@@ -2,7 +2,8 @@
 
 ## Thermal Boundary Layers and the oceanic lithosphere
 
-* **This practical is not assessed !!!** 
+* **This practical is not assessed !!**
+* **See the PDF version for proper equation formatting**
 * **We'll be working through this together**
 * **Please feel free to self organise into small groups**
 
