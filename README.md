@@ -1,4 +1,4 @@
-<h1 style="color:blue">Geol20002 - Week 11 Practical (Geodynamics)</h1> 
+<h1 style="color:blue">Geol20002 - Week 11 Prac. (Geodynamics)</h1> 
 
 ## Thermal Boundary Layers and the oceanic lithosphere
 
@@ -6,10 +6,11 @@
 * **See the PDF version for proper equation formatting**
 * **We'll be working through this together**
 * **Please feel free to self organise into small groups**
+* 👉This Document also available here [GEOL20002 Practical Repository](https://github.com/earthquake-research-group/geol20002Practical)
 
 ### **🌍**  **Key Background Concept**s
 
-In the lecture we explored some major insights from the **plate tectonics revolution of the 1960s**:
+In the lecture we explore some major insights from the **plate tectonics revolution of the 1960s**:
 
 - The **oceanic lithosphere** represents the **cooling thermal boundary layer** of a convecting mantle system.
 - **Mid-ocean ridges** are *passive* features
