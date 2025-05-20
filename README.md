@@ -21,7 +21,7 @@ In the lecture we explore some major insights from the **plate tectonics revolut
 
 **This!** 👉
 
-<img src="VisualPDERecording.gif" alt="Demo" width="400">
+<img src="VisualPDERecording.gif" alt="Demo" width="600">
 
 
 
