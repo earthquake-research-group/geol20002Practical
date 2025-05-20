@@ -219,7 +219,15 @@ Here are a couple of suggestions:
 
 This equation set is particularly rich and challenging to solve, but also incredibly powerful — used in climate models, weather forecasting, and simulations of planetary interiors and oceans.
 
-<h1 style="color:blue">Further Background background/notes</h1> 
+
+
+<h1 style="color:blue">Further background/notes</h1> 
+
+## A working version of this model
+
+(at the time of writing)
+
+can be found here: https://visualpde.com/sim/?mini=iH5STkbV
 
 ## PDEs - beyond 1D
 
