@@ -19,6 +19,12 @@ In the lecture we explore some major insights from the **plate tectonics revolut
 
 ##  What are we aiming to do here?
 
+**This!** 👉
+
+<img src="VisualPDERecording.gif" alt="Demo" width="400">
+
+
+
 We're going to use a web-based tool called **VisualPDE** to solve the advection-diffusion equation (also called convection-diffusion), and apply this to the cooling of a thermal boundary layer. 
 
 In this case we will be exploring a solution in 2D. 
@@ -223,11 +229,7 @@ This equation set is particularly rich and challenging to solve, but also incred
 
 <h1 style="color:blue">Further background/notes</h1> 
 
-## A working version of this model
 
-(at the time of writing)
-
-can be found here: https://visualpde.com/sim/?mini=iH5STkbV
 
 ## PDEs - beyond 1D
 
