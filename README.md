@@ -64,9 +64,10 @@ What happened?
 ## Step 2: Get our bearings!
 
 In this example **VisualPDE** simulator solves a generic advection-diffusion  equation:
-$$
+
+```math
 \frac{\partial u}{\partial t} + \mathbf{v} \cdot \nabla u = D \nabla^2 u
-$$
+```
 
 
 How to interpret these terms:
