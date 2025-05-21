@@ -112,7 +112,8 @@ We can control the velocity field in two ways:
 ```math
 v_x = V \cos(\theta)\\
 v_y = V \sin(\theta)
-$$
+```
+
 We want to **simulate the cooling of a rigid oceanic plate** as it moves away from the **mid-ocean ridge**.
 
 To do this, we follow the physical model first introduced by **Turcotte and Oxburgh (1967)**, which treats the plate as:
@@ -176,9 +177,10 @@ This lets you choose custom boundary conditions for each of the 4 boundaries
 * set some contours for the temperature field $u$
 
 * Clicking on **“Vector Field”** in the VisualPDE interface lets you **visualize the gradient of the temperature field**, which is mathematically represented as:
-  $$
+
+  \math
   \nabla u = \left( \frac{\partial u}{\partial x}, \frac{\partial u}{\partial y} \right)
-  $$
+  ```
   
 
 To configure the **vector Field**, you'll need to set the 
