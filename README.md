@@ -177,9 +177,9 @@ This lets you choose custom boundary conditions for each of the 4 boundaries
 
 * Clicking on **“Vector Field”** in the VisualPDE interface lets you **visualize the gradient of the temperature field**, which is mathematically represented as:
 
-  ```math
-  \nabla u = \left( \frac{\partial u}{\partial x}, \frac{\partial u}{\partial y} \right)
-  ```
+```math
+\nabla u = \left( \frac{\partial u}{\partial x}, \frac{\partial u}{\partial y} \right)
+```
   
 
 To configure the **vector Field**, you'll need to set the 
