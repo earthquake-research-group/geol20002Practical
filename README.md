@@ -240,17 +240,10 @@ This equation set is particularly rich and challenging to solve, but also incred
 
 ## PDEs - beyond 1D
 
-The simulator is solving an advection-diffusion equation** for a scalar quantity $u$:
+The simulator is solving an advection-diffusion equation for a scalar quantity $u$:
 
 ```math
 \frac{\partial u}{\partial t} + \mathbf{v} \cdot \nabla u = D \nabla^2 u
-```
-
-
-This is equivalent to the **temperature advection-diffusion equation**:
-
-```math
-\frac{\partial T}{\partial t} + \mathbf{v} \cdot \nabla T = \kappa \nabla^2 T
 ```
 
 
