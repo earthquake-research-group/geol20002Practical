@@ -73,9 +73,9 @@ In this example **VisualPDE** simulator solves a generic advection-diffusion  eq
 How to interpret these terms:
 
 
-$$
+```math
 \underbrace{\frac{\partial u}{\partial t}}_{\text{Rate of change of u }}\;+\;\underbrace{\mathbf{v} \cdot \nabla u}_{\text{Advection (transport by flow)}}\;=\;\underbrace{D \nabla^2 u}_{\text{Diffusion (spreading out)}}
-$$
+```
 
 
 This is the 2D version of the (1D) equation we derived in the lecture, with an extra term that accounts for advection. **Advection** simply means that the heat is being carried by the flow, while **diffusion** causes it to spread out from the source. The rate of temperature change at any point is determined by the **local balance between advection and diffusion**.
@@ -109,7 +109,7 @@ We can control the velocity field in two ways:
 1. **Magnitude** (or speed): controlled by the scalar $V$ 
 2. **Orientation** (or direction): controlled by the angle $\theta$
 
-$$
+```math
 v_x = V \cos(\theta)\\
 v_y = V \sin(\theta)
 $$
@@ -194,15 +194,18 @@ What is this showing, and why the negative sign?
 ## Step 7: exploring the diffusive scaling relationship 
 
 As discussed in the lecture, the **thickness of the thermal boundary layer** evolves as:
-$$
+
+```math
 \delta \sim \sqrt{\kappa t} \quad \text{and since} \quad t = \frac{x}{V}, \quad \Rightarrow \quad \delta \sim \sqrt{\frac{\kappa x}{V}}
-$$
+```
+
 * remember that in the **VisualPDE**, $D \equiv \kappa$, and $V$ is the velocity magnitude
 
 So the **contour depth** at any horizontal distance $x$ should scale like:
-$$
+
+```math
 \delta(x) \propto \sqrt{\frac{D}{V}}
-$$
+```
 
 
 * Visually, make a note of the depth of a particular isotherm as indicated by the contour lines you sent up. 
@@ -235,15 +238,17 @@ This equation set is particularly rich and challenging to solve, but also incred
 ## PDEs - beyond 1D
 
 The simulator is solving an advection-diffusion equation** for a scalar quantity $u$:
-$$
+
+```math
 \frac{\partial u}{\partial t} + \mathbf{v} \cdot \nabla u = D \nabla^2 u
-$$
+``
 
 
 This is equivalent to the **temperature advection-diffusion equation**:
-$$
+
+```math
 \frac{\partial T}{\partial t} + \mathbf{v} \cdot \nabla T = \kappa \nabla^2 T
-$$
+```
 
 
 In **one dimension**, you’ve seen the **second derivative** of temperature:
@@ -253,13 +258,14 @@ $\frac{d^2 T}{dx^2}$
 But in **two dimensions**, temperature can vary in **both** the x-direction and the y-direction.
 
 So we take the second derivative in **both directions**, and add them
-$$
+
+```math
 \nabla^2 T = \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2}
-$$
+```
+
 This is called the **Laplacian** of T, or $\nabla^2 T$.
 
 ➡️  It’s like curvature, but in all directions at once.
-
 
 
 ## Limits of numerical methods
