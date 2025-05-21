@@ -26,6 +26,8 @@ In the lecture we explore some major insights from the **plate tectonics revolut
 
 We're going to use a web-based tool called **VisualPDE** to solve the advection-diffusion equation (also called convection-diffusion), and apply this to the cooling of a thermal boundary layer. 
 
+VisualPDE is a browser-based simulator of a broad range of partial differential equations.
+
 In this case we will be exploring a solution in 2D. 
 
 To refresh your memory from the lecture, here is a diagram of the model setup. Note that **VisualPDE** refers to the vertical dimension as $y$ (not $z$)
@@ -242,7 +244,7 @@ The simulator is solving an advection-diffusion equation** for a scalar quantity
 
 ```math
 \frac{\partial u}{\partial t} + \mathbf{v} \cdot \nabla u = D \nabla^2 u
-``
+```
 
 
 This is equivalent to the **temperature advection-diffusion equation**:
