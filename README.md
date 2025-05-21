@@ -24,7 +24,6 @@ In the lecture we explore some major insights from the **plate tectonics revolut
 <img src="VisualPDERecording.gif" alt="Demo" width="600">
 
 
-
 We're going to use a web-based tool called **VisualPDE** to solve the advection-diffusion equation (also called convection-diffusion), and apply this to the cooling of a thermal boundary layer. 
 
 In this case we will be exploring a solution in 2D. 
@@ -81,7 +80,7 @@ How to interpret these terms:
 This is the 2D version of the (1D) equation we derived in the lecture, with an extra term that accounts for advection. **Advection** simply means that the heat is being carried by the flow, while **diffusion** causes it to spread out from the source. The rate of temperature change at any point is determined by the **local balance between advection and diffusion**.
 
 - $u(x,y)$: a generic scalar quantity  - think of this as our **temperature** field $T(x,y$)
-- $\mathbf{v}$: the velocity vector
+- $\mathbf{v}(x,y)$: the velocity vector
 - $D$: a generic diffusivity (this is how we change our **thermal diffusivity** $\kappa$)
 
 In general, the solution of a  PDE depends on:
@@ -178,7 +177,7 @@ This lets you choose custom boundary conditions for each of the 4 boundaries
 
 * Clicking on **“Vector Field”** in the VisualPDE interface lets you **visualize the gradient of the temperature field**, which is mathematically represented as:
 
-  \math
+  ```math
   \nabla u = \left( \frac{\partial u}{\partial x}, \frac{\partial u}{\partial y} \right)
   ```
   
